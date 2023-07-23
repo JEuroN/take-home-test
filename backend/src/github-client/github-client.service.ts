@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import { Octokit } from '@octokit/core';
-
 @Injectable()
 export class GithubClientService {
   octokit: Octokit;
@@ -29,11 +28,10 @@ export class GithubClientService {
 
   async GetBranchCommits(name: string) {
     const repo = await this.octokit.request(
-      `GET /repos/JEuroN/take-home-test/branches/${name}`,
+      `GET /repos/JEuroN/take-home-test/commits?sha=${name}`,
       {
         owner: 'JEuroN',
         repo: 'take-home-test',
-        branch: name,
         headers: {
           'X-GitHub-Api-Version': '2022-11-28',
         },
