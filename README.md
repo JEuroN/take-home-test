@@ -17,7 +17,7 @@ descargando un zip con el archivo y descomprimiendolo o clonandolo con la consol
 
 Para poder ejecutar el backend se necesita ir a la carpeta /backend y ejecutar el comando
 
-``npm i`
+`npm i`
 
 o
 
@@ -25,7 +25,7 @@ o
 
 o
 
-``pnpm i`
+`pnpm i`
 
 para poder instalar todas las dependencias del proyecto, seguido de esto ejecutar el comando
 
@@ -39,7 +39,7 @@ Tambien se puede ingresar con una cuenta de github si se desea agregando en las 
 
 Para poder ejecutar el frontend es necesario ir hacia la carpeta /frontend y ejecutar el comando
 
-``npm i`
+`npm i`
 
 o
 
@@ -47,7 +47,7 @@ o
 
 o
 
-``pnpm i`
+`pnpm i`
 
 para poder instalar todas las dependencias del proyecto, seguido de esto ejecutar el comando
 
