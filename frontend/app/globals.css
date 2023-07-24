@@ -1,0 +1,68 @@
+.container {
+  height: 100%;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.externalIcon {
+  border: none;
+  background-color: white;
+}
+
+.cardContainer {
+  border: 2px solid black;
+  width: 95%;
+  margin: 10px 0;
+  border-radius: 4px;
+  display: flex;
+}
+
+.cardSection {
+  display: flex;
+  flex-direction: column;
+  margin: 2px 5px;
+  width: 40%;
+}
+
+.cardSection img {
+  margin: 0 5px;
+}
+
+.commentSection {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.commentSection span {
+  margin-bottom: 2px;
+}
+
+.reloadButton {
+  width: 30px;
+  height: 25px;
+  border: none;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.select {
+  width: 200px;
+  height: 25px;
+}
+
+@media (min-width: 700px) {
+  .commentSection {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+  }
+}
